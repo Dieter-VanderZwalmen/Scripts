@@ -1,0 +1,5 @@
+000000D3
+F72D[04080000]            imul dword [a1]
+0F84[62000000]            je hier
+A1[18050000]              mov eax, [a2]
+F72D[04050000]  hier:     imul dword [a3]

@@ -1,0 +1,6 @@
+000000D2
+F73D[48040000]            idiv dword [a4]
+7D[99]                    jge nogeens
+A1[0C030000]              mov eax, [a3]
+F72D[2C080000]            imul dword [a5]
+0105[30090000]  nogeens:  add [a1], eax

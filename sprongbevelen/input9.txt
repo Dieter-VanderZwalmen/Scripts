@@ -1,0 +1,8 @@
+000000A0
+2905[08060000]            sub [a5], eax
+A3[4C070000]              mov [a1], eax
+A1[00050000]              mov eax, [a4]
+2D[57000000]              sub eax, 87
+0F8C[47000000]            jl start
+F72D[08030000]            imul dword [a3]
+F72D[08060000]  start:    imul dword [a5]

@@ -1,0 +1,5 @@
+000000FD
+F73D[24060000]            idiv dword [a4]
+0F84[BFFFFFFF]            je start
+F72D[18020000]            imul dword [a2]
+F72D[28020000]  start:    imul dword [a1]

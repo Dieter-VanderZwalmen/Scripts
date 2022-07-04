@@ -1,0 +1,7 @@
+000000F5
+0305[44010000]            add eax, [a3]
+2D[47000000]              sub eax, 71
+0F8C[77000000]            jl daar
+29C0                      sub eax, eax
+F73D[2C010000]            idiv dword [a5]
+B8[05000000]    daar:     mov eax, 5

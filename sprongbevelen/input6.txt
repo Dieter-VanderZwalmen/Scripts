@@ -1,0 +1,8 @@
+000000CD
+F73D[18030000]            idiv dword [a3]
+0105[28080000]            add [a4], eax
+05[0E000000]              add eax, 14
+F72D[28010000]            imul dword [a2]
+0F8C[9CFFFFFF]            jl fout
+B8[15000000]              mov eax, 21
+29C0            fout:     sub eax, eax

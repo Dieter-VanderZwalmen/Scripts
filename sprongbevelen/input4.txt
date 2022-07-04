@@ -1,0 +1,6 @@
+000000EB
+A1[18050000]              mov eax, [a4]
+F72D[40020000]            imul dword [a5]
+75[99]                    jnz terug
+2B05[40020000]            sub eax, [a5]
+F72D[04080000]  terug:    imul dword [a2]

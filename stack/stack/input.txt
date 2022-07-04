@@ -1,0 +1,10 @@
+ESP 0000016E
+pop dx
+mov eax, [410h]
+push dword [410h]
+push dword [410h]
+pop dword [91Ch]
+push al
+pop dword [928h]
+mov [91Ch], eax
+push ax

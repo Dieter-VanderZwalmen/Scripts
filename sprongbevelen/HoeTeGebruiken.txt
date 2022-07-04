@@ -1,0 +1,13 @@
+Bevelenteller bij uivoering eerste instructie (die teller in de text)
+Het stukje programma
+Het laatste lijntje
+!GEEN LEGE LIJNEN TUSSEN HOUDEN!
+
+
+000000F5 =>in de text 
+0305[44010000]            add eax, [a3]	=>grote kader
+2D[47000000]              sub eax, 71	=>grote kader
+0F8C[77000000]            jl daar	=>grote kader
+29C0                      sub eax, eax	=>grote kader
+F73D[2C010000]            idiv dword [a5]=>grote kader
+B8[05000000]    daar:     mov eax, 5 =>laatste kader 

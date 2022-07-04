@@ -1,0 +1,6 @@
+0000009C
+F72D[00050000]            imul dword [a4]
+2905[30050000]            sub [a5], eax
+0F8E[3E000000]            jle fout
+0305[00050000]            add eax, [a4]
+F72D[40010000]  fout:     imul dword [a1]
